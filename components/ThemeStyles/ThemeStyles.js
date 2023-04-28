@@ -3,7 +3,7 @@ import appConfig from '../../app.config';
 const themes = {
   blue: {
     '--color-black': '#000',
-    '--color-primary': '#000066',
+    '--color-primary': '#006611',
     '--color-secondary': '#0969da',
     '--color-tertiary': '#CCCCCC',
     '--color-white': '#FFFFFF',
