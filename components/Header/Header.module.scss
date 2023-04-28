@@ -6,7 +6,7 @@
 
 .header {
   color: black;
-  background-color: var(--color-white);
+  background-color: white;
 }
 
 .bar {
@@ -28,14 +28,14 @@
   margin: 0;
   padding: 1.2rem;
   background-color: transparent;
-  color: var(--color-black);
-  border: 0.1rem solid var(--color-black);
+  color: black);
+  border: 0.1rem solid black;
   transition: color 0.3s ease, background-color 0.3s ease;
 
   &:hover,
   &:focus {
-    background-color: var(--color-primary);
-    color: var(--color-white);
+    background-color: black;
+    color: white;
   }
 
   @media (min-width: $breakpoint-small) {
@@ -79,12 +79,12 @@
       height: 100%;
       padding: 1rem;
       font-weight: $font-weight-bold;
-      color: var(--color-black);
+      color: black;
 
       &:hover,
       &:focus {
-        border: 1px solid var(--color-white);
-        color: var(--color-white);
+        border: 1px solid black;
+        color: black;
         padding: 0.9rem;
       }
     }
