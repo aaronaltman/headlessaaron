@@ -53,7 +53,7 @@ export default function Component() {
             <Heading className={styles.heading} level="h1">
               Car Care
             </Heading>
-            <Heading className={styles.heading} level="h1">
+            <Heading className={styles.heading} level="h2">
               Made Simple
             </Heading>
             <p className={styles.description}>
