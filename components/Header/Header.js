@@ -27,6 +27,7 @@ export default function Header({ className, menuItems }) {
     <header className={headerClasses}>
       <SkipNavigationLink />
       <div className="container">
+        <StickyBar leftText="Shop our Spring Sale!" buttonText="Save 67% now" />
         <div className={cx('bar')}>
           <div className={cx('logo')}>
             <Link href="/">
