@@ -32,7 +32,7 @@ export default function Header({ className, menuItems }) {
             <Link href="/">
               <a title="Home">
                 <Image
-                  src="/public/fixdapp-logo.webp"
+                  src="public/static/fixdapp-logo.webp"
                   width={150}
                   height={49}
                   alt="Fixdapp logo"
