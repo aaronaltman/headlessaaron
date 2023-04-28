@@ -53,6 +53,9 @@ export default function Component() {
             <Heading className={styles.heading} level="h1">
               Car Care
             </Heading>
+            <Heading className={styles.heading} level="h1">
+              Made Simple
+            </Heading>
             <p className={styles.description}>
               Looking for objective advice, expert info and helpful tools to answer your car questions?{' '}
             </p>
