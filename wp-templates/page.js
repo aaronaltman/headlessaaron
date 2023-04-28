@@ -1,11 +1,14 @@
 import * as MENUS from 'constants/menus';
+import AaronsHeader from 'path/to/AaronsHeader';
 
 import { gql } from '@apollo/client';
 import { BlogInfoFragment } from 'fragments/GeneralSettings';
 import { pageTitle } from 'utilities';
 
+
+
+
 import {
-  Header,
   Footer,
   Main,
   ContentWrapper,
@@ -38,10 +41,10 @@ export default function Component(props) {
         description={siteDescription}
         imageUrl={featuredImage?.node?.sourceUrl}
       />
-      <Header
-        title={siteTitle}
-        description={siteDescription}
-        menuItems={primaryMenu}
+      <AaronsHeader
+          siteTitle={siteTitle}
+          siteDescription={siteDescription}
+          menuItems={primaryMenu}
       />
       <Main>
         <>

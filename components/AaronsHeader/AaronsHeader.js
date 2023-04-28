@@ -1,5 +1,6 @@
 import { gql } from "@apollo/client";
 import Link from "next/link";
+
 import style from "./header.module.css";
 
 export default function Header({ siteTitle, siteDescription, menuItems }) {
