@@ -49,7 +49,6 @@ export default function Component() {
       />
 
       <Main className={styles.home}>
-        <EntryHeader image={mainBanner} />
         <div className="container">
           <section className="hero text-center">
             <Heading className={styles.heading} level="h1">
