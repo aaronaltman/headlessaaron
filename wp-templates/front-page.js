@@ -3,8 +3,8 @@ import * as MENUS from 'constants/menus';
 import { useQuery, gql } from '@apollo/client';
 import { FaArrowRight } from 'react-icons/fa';
 import styles from 'styles/pages/_Home.module.scss';
+import AaronsHeader from 'components/AaronsHeader/AaronsHeader.js';
 import {
-  AaronsHeader,
   Main,
   Button,
   Heading,
