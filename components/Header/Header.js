@@ -32,7 +32,7 @@ export default function Header({ className, menuItems }) {
             <Link href="/">
               <a title="Home">
                 <Image
-                  src="https://i0.wp.com/www.fixdapp.com/wp-content/uploads/2022/07/fixdapp-logo.png?fit=300%2C96&ssl=1"
+                  src="/public/fixdapp-logo.webp"
                   width={150}
                   height={49}
                   alt="Fixdapp logo"
