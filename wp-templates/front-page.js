@@ -4,14 +4,13 @@ import { useQuery, gql } from '@apollo/client';
 import { FaArrowRight } from 'react-icons/fa';
 import styles from 'styles/pages/_Home.module.scss';
 import {
-  EntryHeader,
+  AaronsHeader,
   Main,
   Button,
   Heading,
   CTA,
   NavigationMenu,
   SEO,
-  Header,
   Footer,
   Posts,
   Testimonials,
@@ -42,10 +41,10 @@ export default function Component() {
     <>
       <SEO title={siteTitle} description={siteDescription} />
 
-      <Header
-        title={siteTitle}
-        description={siteDescription}
-        menuItems={primaryMenu}
+      <AaronsHeader
+          siteTitle={siteTitle}
+          siteDescription={siteDescription}
+          menuItems={primaryMenu}
       />
 
       <Main className={styles.home}>
