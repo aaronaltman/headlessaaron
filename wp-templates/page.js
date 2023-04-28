@@ -1,12 +1,9 @@
 import * as MENUS from 'constants/menus';
-import AaronsHeader from 'path/to/AaronsHeader';
+import AaronsHeader from 'components/AaronsHeader/AaronsHeader.js';
 
 import { gql } from '@apollo/client';
 import { BlogInfoFragment } from 'fragments/GeneralSettings';
 import { pageTitle } from 'utilities';
-
-
-
 
 import {
   Footer,
