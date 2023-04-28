@@ -4,7 +4,9 @@ import { FaBars, FaSearch } from 'react-icons/fa';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { NavigationMenu, SkipNavigationLink } from '../';
+import StickyBar from '/components/StickyBar'
+
+import { NavigationMenu, SkipNavigationLink,} from '../';
 
 import styles from './Header.module.scss';
 let cx = classNames.bind(styles);
